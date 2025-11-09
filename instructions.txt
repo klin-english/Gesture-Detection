@@ -1,3 +1,3 @@
 1. OPEN TERMINAL
-2. RUN "cd Desktop && curl -L -o Gesture-Detection.zip https://github.com/klin-english/Gesture-Detection/archive/refs/heads/main.zip && cd Gesture-Detection-main/ && source command.txt"
+2. RUN "cd ~/Desktop && curl -L -o Gesture-Detection.zip https://github.com/klin-english/Gesture-Detection/archive/refs/heads/main.zip && unzip Gesture-Detection.zip && cd Gesture-Detection-main/ && bash command.txt"
 3. TO RUN THE ACTUAL PROGRAM: "source .venv/bin/activate && python main.py"
