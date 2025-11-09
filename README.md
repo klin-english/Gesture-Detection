@@ -5,5 +5,5 @@ You can find the original repository here: [StormHooper/Gesture_Detection](https
 
 Instructions for setup and usage are included in the file **instructions.txt**.
 
-# **THIS IS A RASPBERRY PI 4 OR 5 VERSION
-Check the other branches for Mac Version
+# **THIS IS A MAC VERSION
+Check the other branches for Raspberry Pi Version
