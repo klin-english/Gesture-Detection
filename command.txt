@@ -7,7 +7,7 @@ tar -xvzf Python-3.11.0.tgz && cd Python-3.11.0 && \
   LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix zlib)/lib" && \
 make -j"$(sysctl -n hw.logicalcpu)" && sudo make altinstall && \
 python3.11 --version && \
-cd ../ && unzip asl_model.zip -d ../ && cd ../asl_model/ && \
+cd ../ && unzip asl_model_mac.zip -d ../ && cd ../asl_model_mac/ && \
 python3.11 -m venv .venv && source .venv/bin/activate && \
 pip install --upgrade pip && \
 pip install -r requirements.txt && \
