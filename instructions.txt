@@ -1,3 +1,3 @@
 1. OPEN TERMINAL
-2. RUN "cd Desktop && curl -L -o Gesture-Detection.zip https://github.com/klin-english/Gesture-Detection/archive/refs/heads/main.zip && cd Gesture-Detection-Raspberry_Pi/ && source command.txt"
+2. RUN "cd Desktop && curl -L -o Gesture-Detection.zip https://github.com/klin-english/Gesture-Detection/archive/refs/heads/main.zip && unzip Gesture-Detection.zip && cd Gesture-Detection-Raspberry_Pi/ && source command.txt"
 3. TO RUN THE ACTUAL PROGRAM: "cd Desktop/asl_model/ && source .venv/bin/activate && python main.py"
