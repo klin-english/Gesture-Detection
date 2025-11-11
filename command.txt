@@ -1,14 +1,1 @@
-brew update && brew upgrade && \
-brew install openssl readline sqlite3 xz zlib bzip2 wget unzip && \
-wget https://www.python.org/ftp/python/3.11.0/Python-3.11.0.tgz && \
-tar -xvzf Python-3.11.0.tgz && cd Python-3.11.0 && \
-./configure --enable-optimizations --with-ensurepip=install \
-  CPPFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix zlib)/include" \
-  LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix zlib)/lib" && \
-make -j"$(sysctl -n hw.logicalcpu)" && sudo make altinstall && \
-python3.11 --version && \
-cd ../ && unzip asl_model_mac.zip -d ../ && cd ../asl_model_mac/ && \
-python3.11 -m venv .venv && source .venv/bin/activate && \
-pip install --upgrade pip && \
-pip install -r requirements.txt && \
-python train_asl_model.py
+brew install wget && wget https://www.python.org/ftp/python/3.11.0/Python-3.11.0.tgz && tar -xvzf Python-3.11.0.tgz && cd ../ && unzip asl_model.zip -d ../ && cd ../asl_model/ && source run.txt
