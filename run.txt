@@ -1,0 +1,1 @@
+python3.11 -m venv .venv && source .venv/bin/activate && sudo apt upgrade && pip3 install -r requirements.txt && python train_asl_model.py
